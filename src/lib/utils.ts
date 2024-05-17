@@ -4,7 +4,7 @@ import { type ClassValue, clsx } from "clsx";
 import qs from "qs";
 import { twMerge } from "tailwind-merge";
 
-import { aspectRatioOptions } from "F:/imaginify/constants";
+import { aspectRatioOptions } from "../components/constants";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
